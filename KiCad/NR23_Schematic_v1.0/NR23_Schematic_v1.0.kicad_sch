@@ -87,6 +87,9 @@
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/35333229-0e5e-47a2-bb43-fcfbf8fd658d"
       (reference "U?") (unit 1) (value "Sevcon_Gen4_Size6") (footprint "")
     )
+    (path "/16ced548-a4c4-4a05-b722-8e9610f878cc/9d7dd9d4-08e3-4a28-bbcf-ccc45bdb0ba7"
+      (reference "U?") (unit 1) (value "xbee") (footprint "")
+    )
     (path "/40c358ae-a01e-49c6-aef1-9b414ada72a7/e589b0ba-3ef4-441a-b952-69163bba29f7"
       (reference "U?") (unit 1) (value "Throttle") (footprint "")
     )
