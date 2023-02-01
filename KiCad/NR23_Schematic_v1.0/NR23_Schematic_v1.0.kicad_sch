@@ -87,6 +87,9 @@
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/0aa54167-f3d9-467b-bc69-db1827651c6c"
       (reference "U?") (unit 1) (value "Throttle") (footprint "")
     )
+    (path "/16ced548-a4c4-4a05-b722-8e9610f878cc/1026cbb4-748f-4d38-8a82-89551ea26c44"
+      (reference "U?") (unit 1) (value "IR4301") (footprint "Package_DFN_QFN:Infineon_PQFN-22-15-4EP_6x5mm_P0.65mm")
+    )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/35333229-0e5e-47a2-bb43-fcfbf8fd658d"
       (reference "U?") (unit 1) (value "Sevcon_Gen4_Size6") (footprint "")
     )
