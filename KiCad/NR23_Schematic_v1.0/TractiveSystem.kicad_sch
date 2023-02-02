@@ -2,7 +2,7 @@
 
   (uuid 588b5c14-1813-4e1d-9dbe-940839ecebe3)
 
-  (paper "A4")
+  (paper "A")
 
   (lib_symbols
     (symbol "CamachosSymbols:Sevcon_Gen4_Size6" (in_bom yes) (on_board yes)

@@ -2,7 +2,7 @@
 
   (uuid b66fc70e-ac62-4066-b168-28f224b68855)
 
-  (paper "A4")
+  (paper "A")
 
   (lib_symbols
     (symbol "Homssymbols:xbee" (in_bom yes) (on_board yes)
