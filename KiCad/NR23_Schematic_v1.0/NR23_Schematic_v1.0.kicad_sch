@@ -84,6 +84,9 @@
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/17f5dc4f-ba2e-4459-9469-5c2da575d700"
       (reference "M?") (unit 1) (value "Zero_7R_Motor") (footprint "")
     )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/4b73d085-8847-4f3e-8b8e-a264476cb21e"
+      (reference "R_pullup") (unit 1) (value "10k") (footprint "")
+    )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/0aa54167-f3d9-467b-bc69-db1827651c6c"
       (reference "U?") (unit 1) (value "Throttle") (footprint "")
     )
