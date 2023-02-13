@@ -2,68 +2,68 @@
 
   (uuid 3d51c1fa-6531-4ba6-8378-66c613861a49)
 
-  (paper "A4")
+  (paper "A")
 
   (lib_symbols
   )
 
 
-  (sheet (at 66.04 135.89) (size 64.77 44.45) (fields_autoplaced)
+  (sheet (at 85.09 78.74) (size 39.37 13.97) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 16ced548-a4c4-4a05-b722-8e9610f878cc)
-    (property "Sheet name" "Telemetry" (id 0) (at 66.04 133.3134 0)
+    (property "Sheet name" "Telemetry" (id 0) (at 85.09 76.1634 0)
       (effects (font (size 5 5)) (justify left bottom))
     )
-    (property "Sheet file" "Telemetry.kicad_sch" (id 1) (at 66.04 180.9246 0)
+    (property "Sheet file" "Telemetry.kicad_sch" (id 1) (at 85.09 93.2946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 30.48 81.28) (size 55.88 33.02) (fields_autoplaced)
+  (sheet (at 43.18 52.07) (size 27.94 13.97) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 2df3fecd-d45b-4e25-bac9-628d20876953)
-    (property "Sheet name" "VD Suite" (id 0) (at 30.48 78.7034 0)
+    (property "Sheet name" "VD Suite" (id 0) (at 43.18 49.4934 0)
       (effects (font (size 5 5)) (justify left bottom))
     )
-    (property "Sheet file" "VDSuite.kicad_sch" (id 1) (at 30.48 114.8846 0)
+    (property "Sheet file" "VDSuite.kicad_sch" (id 1) (at 43.18 66.6246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 110.49 77.47) (size 73.66 35.56) (fields_autoplaced)
+  (sheet (at 86.36 58.42) (size 58.42 3.81)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 40c358ae-a01e-49c6-aef1-9b414ada72a7)
-    (property "Sheet name" "Driver Interface" (id 0) (at 110.49 76.7584 0)
+    (property "Sheet name" "Driver Interface" (id 0) (at 85.09 57.15 0)
       (effects (font (size 5 5)) (justify left bottom))
     )
-    (property "Sheet file" "DriverInterface.kicad_sch" (id 1) (at 110.49 113.6146 0)
+    (property "Sheet file" "DriverInterface.kicad_sch" (id 1) (at 86.36 62.8146 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 204.47 58.42) (size 68.58 102.87) (fields_autoplaced)
+  (sheet (at 160.02 46.99) (size 24.13 12.7) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 8302703f-65d0-4b91-aeea-6f721ab57e4c)
-    (property "Sheet name" "Tractive System" (id 0) (at 204.47 55.8434 0)
+    (property "Sheet name" "Tractive System" (id 0) (at 160.02 44.4134 0)
       (effects (font (size 5 5)) (justify left bottom))
     )
-    (property "Sheet file" "TractiveSystem.kicad_sch" (id 1) (at 204.47 161.8746 0)
+    (property "Sheet file" "TractiveSystem.kicad_sch" (id 1) (at 160.02 60.2746 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 110.49 31.75) (size 50.8 22.86) (fields_autoplaced)
+  (sheet (at 106.68 34.29) (size 26.67 11.43)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid c7466bb0-ebde-4ea4-90e3-94511e3895a3)
-    (property "Sheet name" "Microcontroller" (id 0) (at 110.49 29.1734 0)
+    (property "Sheet name" "Microcontroller" (id 0) (at 92.71 34.29 0)
       (effects (font (size 5 5)) (justify left bottom))
     )
-    (property "Sheet file" "Microcontroller.kicad_sch" (id 1) (at 110.49 55.1946 0)
+    (property "Sheet file" "Microcontroller.kicad_sch" (id 1) (at 106.68 46.99 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -78,17 +78,44 @@
   )
 
   (symbol_instances
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/fb0877ec-1ae0-4dd7-a18b-24d445b138a5"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/a05e3eb6-24ad-4681-b9d3-ba583a4db1b6"
+      (reference "BT?") (unit 1) (value "7.2KW_Battery") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/8e9b01ff-cca3-4a7a-a6e5-75c2e382c598"
+      (reference "F?") (unit 1) (value "Fuse") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/ba497376-f3b3-4aa7-8c24-837b232c4c3d"
+      (reference "F?") (unit 1) (value "Fuse") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/b190c8cb-bd8a-4856-a017-7c47d784415d"
+      (reference "K?") (unit 1) (value "Line Contactor") (footprint "Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/17f5dc4f-ba2e-4459-9469-5c2da575d700"
       (reference "M?") (unit 1) (value "Zero_7R_Motor") (footprint "")
     )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/4b73d085-8847-4f3e-8b8e-a264476cb21e"
+      (reference "R_pullup") (unit 1) (value "10k") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/737b7baf-b889-4aeb-8cad-49a9c6801593"
+      (reference "SW?") (unit 1) (value "Key Switch") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/0aa54167-f3d9-467b-bc69-db1827651c6c"
+      (reference "U?") (unit 1) (value "Throttle") (footprint "")
+    )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/35333229-0e5e-47a2-bb43-fcfbf8fd658d"
       (reference "U?") (unit 1) (value "Sevcon_Gen4_Size6") (footprint "")
     )
-    (path "/40c358ae-a01e-49c6-aef1-9b414ada72a7/e589b0ba-3ef4-441a-b952-69163bba29f7"
-      (reference "U?") (unit 1) (value "Throttle") (footprint "")
+    (path "/c7466bb0-ebde-4ea4-90e3-94511e3895a3/3d5d7fd9-b8a5-4759-9bef-7e277b0e578a"
+      (reference "U?") (unit 1) (value "CANbus") (footprint "")
+    )
+    (path "/c7466bb0-ebde-4ea4-90e3-94511e3895a3/699a947b-7503-4a2e-aeca-27dd918b3280"
+      (reference "U?") (unit 1) (value "TI_J12_CANbus") (footprint "")
+    )
+    (path "/16ced548-a4c4-4a05-b722-8e9610f878cc/942b0a04-1bf0-4324-8c6e-417346d8e5d0"
+      (reference "U?") (unit 1) (value "xbee") (footprint "")
+    )
+    (path "/c7466bb0-ebde-4ea4-90e3-94511e3895a3/dd05f672-8c08-4b2b-9bb3-8f78a97dab20"
+      (reference "U?") (unit 1) (value "TI_J1/J3") (footprint "")
     )
   )
 )
