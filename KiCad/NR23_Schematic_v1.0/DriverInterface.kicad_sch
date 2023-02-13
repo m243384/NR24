@@ -46,6 +46,14 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 42726b97-ffe0-4eb1-9a3f-926420de0387)
   )
+  (wire (pts (xy 85.09 55.88) (xy 92.71 55.88))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid b3a12d68-0f54-4697-bb25-947b42adcc81)
+  )
+  (wire (pts (xy 85.09 53.34) (xy 92.71 53.34))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid ced0b215-dd5b-4e77-b3fe-01bdcc353c71)
+  )
 
   (text "The throttle pedal is now inside the tractive system schematic"
     (at 81.28 99.06 0)
@@ -53,9 +61,13 @@
     (uuid e3600ba9-cd94-4fb3-9689-ff021caa1da0)
   )
 
-  (hierarchical_label "CAN_H_DASH" (shape input) (at 92.71 50.8 0)
+  (hierarchical_label "CANBus_dash_L" (shape input) (at 92.71 53.34 0)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid f5bb9812-0897-48fe-992a-0099244ac447)
+    (uuid 80d1ddd7-a63e-48e1-907d-6db9a4022e4d)
+  )
+  (hierarchical_label "CANBus_dash_H" (shape input) (at 92.71 50.8 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid e79346e9-ed0d-41f3-9a14-82bde2ab6bfd)
   )
 
   (symbol (lib_id "Homssymbols:Dash") (at 62.23 67.31 0) (unit 1)
