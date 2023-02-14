@@ -78,6 +78,12 @@
   )
 
   (symbol_instances
+    (path "/c7466bb0-ebde-4ea4-90e3-94511e3895a3/abd2a7f6-194b-4f90-9352-cc86eaabf27b"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/c7466bb0-ebde-4ea4-90e3-94511e3895a3/aefa985d-2a08-4349-90af-e8fd54a309c3"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/a05e3eb6-24ad-4681-b9d3-ba583a4db1b6"
       (reference "BT?") (unit 1) (value "7.2KW_Battery") (footprint "")
     )
@@ -105,14 +111,20 @@
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/35333229-0e5e-47a2-bb43-fcfbf8fd658d"
       (reference "U?") (unit 1) (value "Sevcon_Gen4_Size6") (footprint "")
     )
-    (path "/c7466bb0-ebde-4ea4-90e3-94511e3895a3/3d5d7fd9-b8a5-4759-9bef-7e277b0e578a"
-      (reference "U?") (unit 1) (value "CANbus") (footprint "")
-    )
     (path "/c7466bb0-ebde-4ea4-90e3-94511e3895a3/699a947b-7503-4a2e-aeca-27dd918b3280"
       (reference "U?") (unit 1) (value "TI_J12_CANbus") (footprint "")
     )
+    (path "/40c358ae-a01e-49c6-aef1-9b414ada72a7/86cf8333-4281-49ef-8de9-d09a4c2f7e61"
+      (reference "U?") (unit 1) (value "Dash") (footprint "")
+    )
     (path "/16ced548-a4c4-4a05-b722-8e9610f878cc/942b0a04-1bf0-4324-8c6e-417346d8e5d0"
       (reference "U?") (unit 1) (value "xbee") (footprint "")
+    )
+    (path "/c7466bb0-ebde-4ea4-90e3-94511e3895a3/991d9159-ee3b-4883-9868-58693594f778"
+      (reference "U?") (unit 1) (value "TI_Board") (footprint "")
+    )
+    (path "/c7466bb0-ebde-4ea4-90e3-94511e3895a3/c4d2efd0-b388-45fb-bba7-22b5c621151d"
+      (reference "U?") (unit 1) (value "CANbus") (footprint "")
     )
     (path "/c7466bb0-ebde-4ea4-90e3-94511e3895a3/dd05f672-8c08-4b2b-9bb3-8f78a97dab20"
       (reference "U?") (unit 1) (value "TI_J1/J3") (footprint "")
