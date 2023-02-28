@@ -332,3 +332,34 @@ void Simulink_example_CAN_Serial1_step2(void) /* Sample time: [0.5s, 0.0s] */
     GpioDataRegs.GPDCLEAR.bit.GPIO124 = 1;
   }
 }
+
+/* Model step function for TID3 */
+void Simulink_example_CAN_Serial1_step3(void) /* Sample time: [1.0s, 0.0s] */
+{
+  /* S-Function (c280xcanrcv): '<Root>/eCAN Receive' */
+  {
+    tCANMsgObject sRXCANMessage;
+    unsigned char ucRXMsgData[8] = { 0, 0, 0, 0, 0, 0, 0, 0 };
+
+    sRXCANMessage.ui32MsgID = 455;     // CAN message ID
+    sRXCANMessage.ui32MsgIDMask = 0;   // no mask needed for TX
+    sRXCANMessage.ui32Flags = MSG_OBJ_NO_FLAGS;
+    sRXCANMessage.ui32MsgLen = sizeof(ucRXMsgData);// size of message
+    sRXCANMessage.pucMsgData = ucRXMsgData;// ptr to message content
+
+    // Get the receive message
+    CANMessageGet(CANB_BASE, 1, &sRXCANMessage, false);
+    if (sRXCANMessage.ui32MsgLen > 0) {
+      Simulink_example_CAN_Serial1_B.eCANReceive_o2[0] = ucRXMsgData[0] |
+      (ucRXMsgData[1] << 8);
+      Simulink_example_CAN_Serial1_B.eCANReceive_o2[1] = ucRXMsgData[2] |
+      (ucRXMsgData[3] << 8);
+      Simulink_example_CAN_Serial1_B.eCANReceive_o2[2] = ucRXMsgData[4] |
+      (ucRXMsgData[5] << 8);
+      Simulink_example_CAN_Serial1_B.eCANReceive_o2[3] = ucRXMsgData[6] |
+      (ucRXMsgData[7] << 8);
+
+      /* -- Call CAN RX Fcn-Call_0 -- */
+    }
+  }
+}
