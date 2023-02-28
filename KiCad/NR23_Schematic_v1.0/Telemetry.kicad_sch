@@ -4,6 +4,10 @@
 
   (paper "A")
 
+  (title_block
+    (date "2023-02-28")
+  )
+
   (lib_symbols
     (symbol "Homssymbols:xbee" (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 25.4 -5.08 0)
