@@ -5,33 +5,33 @@
   (paper "A")
 
   (title_block
-    (date "2023-02-28")
+    (date "2023-03-03")
   )
 
   (lib_symbols
   )
 
 
-  (sheet (at 96.52 135.89) (size 50.8 38.1)
+  (sheet (at 59.69 133.35) (size 50.8 38.1)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 16ced548-a4c4-4a05-b722-8e9610f878cc)
-    (property "Sheet name" "Telemetry" (id 0) (at 96.52 133.35 0)
+    (property "Sheet name" "Telemetry" (id 0) (at 59.69 130.81 0)
       (effects (font (size 5 5)) (justify left bottom))
     )
-    (property "Sheet file" "Telemetry.kicad_sch" (id 1) (at 96.52 174.5746 0)
+    (property "Sheet file" "Telemetry.kicad_sch" (id 1) (at 59.69 172.0346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 27.94 96.52) (size 40.64 35.56) (fields_autoplaced)
+  (sheet (at 21.59 78.74) (size 40.64 35.56) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 2df3fecd-d45b-4e25-bac9-628d20876953)
-    (property "Sheet name" "VD Suite" (id 0) (at 27.94 93.9434 0)
+    (property "Sheet name" "VD Suite" (id 0) (at 21.59 76.1634 0)
       (effects (font (size 5 5)) (justify left bottom))
     )
-    (property "Sheet file" "VDSuite.kicad_sch" (id 1) (at 27.94 132.6646 0)
+    (property "Sheet file" "VDSuite.kicad_sch" (id 1) (at 21.59 114.8846 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -48,26 +48,38 @@
     )
   )
 
-  (sheet (at 179.07 64.77) (size 59.69 39.37) (fields_autoplaced)
+  (sheet (at 186.69 115.57) (size 59.69 39.37) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
-    (uuid 8302703f-65d0-4b91-aeea-6f721ab57e4c)
-    (property "Sheet name" "Tractive System" (id 0) (at 179.07 62.1934 0)
+    (uuid 6b38ef1b-89ba-46d1-8032-b895c26a5218)
+    (property "Sheet name" "BenchTop" (id 0) (at 186.69 112.9934 0)
       (effects (font (size 5 5)) (justify left bottom))
     )
-    (property "Sheet file" "TractiveSystem.kicad_sch" (id 1) (at 179.07 104.7246 0)
+    (property "Sheet file" "BenchTop.kicad_sch" (id 1) (at 186.69 155.5246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 92.71 36.83) (size 49.53 30.48)
+  (sheet (at 185.42 49.53) (size 59.69 39.37) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 8302703f-65d0-4b91-aeea-6f721ab57e4c)
+    (property "Sheet name" "Tractive System" (id 0) (at 185.42 46.9534 0)
+      (effects (font (size 5 5)) (justify left bottom))
+    )
+    (property "Sheet file" "TractiveSystem.kicad_sch" (id 1) (at 185.42 89.4846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet (at 88.9 27.94) (size 49.53 30.48)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid c7466bb0-ebde-4ea4-90e3-94511e3895a3)
-    (property "Sheet name" "Microcontroller" (id 0) (at 91.44 35.56 0)
+    (property "Sheet name" "Microcontroller" (id 0) (at 87.63 26.67 0)
       (effects (font (size 5 5)) (justify left bottom))
     )
-    (property "Sheet file" "Microcontroller.kicad_sch" (id 1) (at 92.71 49.53 0)
+    (property "Sheet file" "Microcontroller.kicad_sch" (id 1) (at 88.9 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -79,6 +91,7 @@
     (path "/2df3fecd-d45b-4e25-bac9-628d20876953" (page "4"))
     (path "/16ced548-a4c4-4a05-b722-8e9610f878cc" (page "5"))
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c" (page "6"))
+    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218" (page "7"))
   )
 
   (symbol_instances
@@ -91,26 +104,53 @@
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/9ec1d7fc-6f5f-41a1-a450-d625e8c70d57"
       (reference "BT?") (unit 1) (value "12V") (footprint "")
     )
+    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/9ec1d7fc-6f5f-41a1-a450-d625e8c70d57"
+      (reference "BT?") (unit 1) (value "12V") (footprint "")
+    )
+    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/a05e3eb6-24ad-4681-b9d3-ba583a4db1b6"
+      (reference "BT?") (unit 1) (value "7.2KW_Battery") (footprint "")
+    )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/a05e3eb6-24ad-4681-b9d3-ba583a4db1b6"
       (reference "BT?") (unit 1) (value "7.2KW_Battery") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/ba497376-f3b3-4aa7-8c24-837b232c4c3d"
       (reference "F?") (unit 1) (value "Fuse") (footprint "")
     )
+    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/ba497376-f3b3-4aa7-8c24-837b232c4c3d"
+      (reference "F?") (unit 1) (value "Fuse") (footprint "")
+    )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/f89e7d82-128e-4a2c-9534-2de10c90326b"
       (reference "F?") (unit 1) (value "Fuse") (footprint "")
     )
+    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/f89e7d82-128e-4a2c-9534-2de10c90326b"
+      (reference "F?") (unit 1) (value "Fuse") (footprint "")
+    )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/dc0c9514-aba3-4b23-943d-072d1b6ac9ac"
-      (reference "J?") (unit 1) (value "Conn_01x06_Female") (footprint "")
+      (reference "J?") (unit 1) (value "F_con") (footprint "")
+    )
+    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/dc0c9514-aba3-4b23-943d-072d1b6ac9ac"
+      (reference "J?") (unit 1) (value "F_con") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/de29f7ed-664a-479e-9fdb-f102e88408fb"
-      (reference "J?") (unit 1) (value "Conn_01x06_Male") (footprint "")
+      (reference "J?") (unit 1) (value "M_con") (footprint "")
+    )
+    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/de29f7ed-664a-479e-9fdb-f102e88408fb"
+      (reference "J?") (unit 1) (value "M_con") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/91be2d7e-1603-4ffc-85db-9cef433a5348"
       (reference "K?") (unit 1) (value "Key Switch Relay") (footprint "Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT")
     )
+    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/91be2d7e-1603-4ffc-85db-9cef433a5348"
+      (reference "K?") (unit 1) (value "Key Switch Relay") (footprint "Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT")
+    )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/b190c8cb-bd8a-4856-a017-7c47d784415d"
       (reference "K?") (unit 1) (value "Line Contactor") (footprint "Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT")
+    )
+    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/b190c8cb-bd8a-4856-a017-7c47d784415d"
+      (reference "K?") (unit 1) (value "Line Contactor") (footprint "Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT")
+    )
+    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/17f5dc4f-ba2e-4459-9469-5c2da575d700"
+      (reference "M1") (unit 1) (value "Zero_7R_Motor") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/17f5dc4f-ba2e-4459-9469-5c2da575d700"
       (reference "M1") (unit 1) (value "Zero_7R_Motor") (footprint "")
@@ -118,11 +158,23 @@
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/737b7baf-b889-4aeb-8cad-49a9c6801593"
       (reference "SW?") (unit 1) (value "Key Switch") (footprint "")
     )
+    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/737b7baf-b889-4aeb-8cad-49a9c6801593"
+      (reference "SW?") (unit 1) (value "Key Switch") (footprint "")
+    )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/839a2160-4be7-4a71-b4f3-e2d027441525"
+      (reference "SW?") (unit 1) (value "HV Safety Switch") (footprint "")
+    )
+    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/839a2160-4be7-4a71-b4f3-e2d027441525"
       (reference "SW?") (unit 1) (value "HV Safety Switch") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/0aa54167-f3d9-467b-bc69-db1827651c6c"
       (reference "U?") (unit 1) (value "Throttle") (footprint "")
+    )
+    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/0aa54167-f3d9-467b-bc69-db1827651c6c"
+      (reference "U?") (unit 1) (value "Throttle") (footprint "")
+    )
+    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/35333229-0e5e-47a2-bb43-fcfbf8fd658d"
+      (reference "U?") (unit 1) (value "Sevcon_Gen4_Size6") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/35333229-0e5e-47a2-bb43-fcfbf8fd658d"
       (reference "U?") (unit 1) (value "Sevcon_Gen4_Size6") (footprint "")

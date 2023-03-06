@@ -5,7 +5,7 @@
   (paper "A")
 
   (title_block
-    (date "2023-02-28")
+    (date "2023-03-03")
   )
 
   (lib_symbols
@@ -85,8 +85,8 @@
     (property "Datasheet" "" (id 3) (at 62.23 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid ed0c54fe-8a0a-4b39-b581-b7a4a2c1bdd6))
-    (pin "" (uuid ed0c54fe-8a0a-4b39-b581-b7a4a2c1bdd6))
-    (pin "" (uuid ed0c54fe-8a0a-4b39-b581-b7a4a2c1bdd6))
+    (pin "" (uuid ed0c54fe-8a0a-4b39-b581-b7a4a2c1bdda))
+    (pin "" (uuid ed0c54fe-8a0a-4b39-b581-b7a4a2c1bdda))
+    (pin "" (uuid ed0c54fe-8a0a-4b39-b581-b7a4a2c1bdda))
   )
 )

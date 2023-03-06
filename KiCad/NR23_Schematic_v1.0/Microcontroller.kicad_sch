@@ -5,7 +5,7 @@
   (paper "A")
 
   (title_block
-    (date "2023-02-28")
+    (date "2023-03-03")
   )
 
   (lib_symbols
@@ -238,9 +238,9 @@
     (property "Datasheet" "" (id 3) (at 125.73 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid cfa7ac3b-117b-4b39-8dd8-f35deab8e3b8))
-    (pin "" (uuid cfa7ac3b-117b-4b39-8dd8-f35deab8e3b8))
-    (pin "" (uuid cfa7ac3b-117b-4b39-8dd8-f35deab8e3b8))
+    (pin "" (uuid cfa7ac3b-117b-4b39-8dd8-f35deab8e3bc))
+    (pin "" (uuid cfa7ac3b-117b-4b39-8dd8-f35deab8e3bc))
+    (pin "" (uuid cfa7ac3b-117b-4b39-8dd8-f35deab8e3bc))
   )
 
   (symbol (lib_id "Homssymbols:TI_Board") (at 134.62 87.63 0) (unit 1)
@@ -303,15 +303,15 @@
     (property "Datasheet" "" (id 3) (at 76.2 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 6725b488-3612-49e8-acf1-7edd3c9999b0))
-    (pin "" (uuid 6725b488-3612-49e8-acf1-7edd3c9999b0))
-    (pin "" (uuid 6725b488-3612-49e8-acf1-7edd3c9999b0))
-    (pin "" (uuid 6725b488-3612-49e8-acf1-7edd3c9999b0))
-    (pin "" (uuid 6725b488-3612-49e8-acf1-7edd3c9999b0))
-    (pin "" (uuid 6725b488-3612-49e8-acf1-7edd3c9999b0))
-    (pin "" (uuid 6725b488-3612-49e8-acf1-7edd3c9999b0))
-    (pin "" (uuid 6725b488-3612-49e8-acf1-7edd3c9999b0))
-    (pin "" (uuid 6725b488-3612-49e8-acf1-7edd3c9999b0))
+    (pin "" (uuid 6725b488-3612-49e8-acf1-7edd3c9999c0))
+    (pin "" (uuid 6725b488-3612-49e8-acf1-7edd3c9999c0))
+    (pin "" (uuid 6725b488-3612-49e8-acf1-7edd3c9999c0))
+    (pin "" (uuid 6725b488-3612-49e8-acf1-7edd3c9999c0))
+    (pin "" (uuid 6725b488-3612-49e8-acf1-7edd3c9999c0))
+    (pin "" (uuid 6725b488-3612-49e8-acf1-7edd3c9999c0))
+    (pin "" (uuid 6725b488-3612-49e8-acf1-7edd3c9999c0))
+    (pin "" (uuid 6725b488-3612-49e8-acf1-7edd3c9999c0))
+    (pin "" (uuid 6725b488-3612-49e8-acf1-7edd3c9999c0))
   )
 
   (symbol (lib_id "Homssymbols:TI_J1{slash}J3") (at 106.68 115.57 0) (unit 1)
