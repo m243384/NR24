@@ -117,12 +117,9 @@
       (reference "F?") (unit 1) (value "Fuse") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/ba497376-f3b3-4aa7-8c24-837b232c4c3d"
-      (reference "F?") (unit 1) (value "Fuse") (footprint "")
+      (reference "F?") (unit 1) (value "Sevcon Fuse") (footprint "")
     )
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/f89e7d82-128e-4a2c-9534-2de10c90326b"
-      (reference "F?") (unit 1) (value "Fuse") (footprint "")
-    )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/f89e7d82-128e-4a2c-9534-2de10c90326b"
       (reference "F?") (unit 1) (value "Fuse") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/0e765dc3-43c7-4f79-87c3-4cc92ce2c9a7"
@@ -134,10 +131,13 @@
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/677d3ecc-41bd-42e2-8c0e-9eee2eeadf6d"
       (reference "J?") (unit 1) (value "Conn_01x02") (footprint "")
     )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/dc0c9514-aba3-4b23-943d-072d1b6ac9ac"
-      (reference "J?") (unit 1) (value "F_con") (footprint "")
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/6ac0395a-3a8c-4f14-a5f6-c53255100d70"
+      (reference "J?") (unit 1) (value "M_con") (footprint "")
     )
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/dc0c9514-aba3-4b23-943d-072d1b6ac9ac"
+      (reference "J?") (unit 1) (value "F_con") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/dc0c9514-aba3-4b23-943d-072d1b6ac9ac"
       (reference "J?") (unit 1) (value "F_con") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/de29f7ed-664a-479e-9fdb-f102e88408fb"
@@ -145,6 +145,9 @@
     )
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/de29f7ed-664a-479e-9fdb-f102e88408fb"
       (reference "J?") (unit 1) (value "M_con") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/e414d6cf-b0e7-416e-b935-ec05d5985e56"
+      (reference "J?") (unit 1) (value "F_con") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/91be2d7e-1603-4ffc-85db-9cef433a5348"
       (reference "K?") (unit 1) (value "Key Switch Relay") (footprint "Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT")
@@ -158,28 +161,43 @@
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/b190c8cb-bd8a-4856-a017-7c47d784415d"
       (reference "K?") (unit 1) (value "Line Contactor") (footprint "Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT")
     )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/0d024760-a076-4b77-abcf-9c436cad2cfa"
+      (reference "LA?") (unit 1) (value "12V GRN TI Light (dash)") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/cda5258b-0992-4643-8a7e-aeaef037b31a"
+      (reference "LA?") (unit 1) (value "12V GRN Keyswitch Light (dash)") (footprint "")
+    )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/17f5dc4f-ba2e-4459-9469-5c2da575d700"
       (reference "M1") (unit 1) (value "Zero_7R_Motor") (footprint "")
     )
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/17f5dc4f-ba2e-4459-9469-5c2da575d700"
       (reference "M1") (unit 1) (value "Zero_7R_Motor") (footprint "")
     )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/37803ef0-6e44-403d-b2c6-b4a52f58eab0"
+      (reference "SW?") (unit 1) (value "12V E-stop (dash)") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/5046c654-209f-411d-93aa-4e4ae2178426"
+      (reference "SW?") (unit 1) (value "TI power switch (dash)") (footprint "")
+    )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/737b7baf-b889-4aeb-8cad-49a9c6801593"
-      (reference "SW?") (unit 1) (value "Key Switch") (footprint "")
+      (reference "SW?") (unit 1) (value "Key Switch (dash)") (footprint "")
     )
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/737b7baf-b889-4aeb-8cad-49a9c6801593"
       (reference "SW?") (unit 1) (value "Key Switch") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/839a2160-4be7-4a71-b4f3-e2d027441525"
-      (reference "SW?") (unit 1) (value "HV Safety Switch") (footprint "")
+      (reference "SW?") (unit 1) (value "HV Safety Switch (behind driver)") (footprint "")
     )
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/839a2160-4be7-4a71-b4f3-e2d027441525"
       (reference "SW?") (unit 1) (value "HV Safety Switch") (footprint "")
     )
-    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/0aa54167-f3d9-467b-bc69-db1827651c6c"
-      (reference "U?") (unit 1) (value "Throttle") (footprint "")
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/ab1e632e-d4c8-4dc8-b13f-a9f28de904e4"
+      (reference "SW?") (unit 1) (value "100V E-stop (side of car)") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/0aa54167-f3d9-467b-bc69-db1827651c6c"
+      (reference "U?") (unit 1) (value "Throttle") (footprint "")
+    )
+    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/0aa54167-f3d9-467b-bc69-db1827651c6c"
       (reference "U?") (unit 1) (value "Throttle") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/35333229-0e5e-47a2-bb43-fcfbf8fd658d"
