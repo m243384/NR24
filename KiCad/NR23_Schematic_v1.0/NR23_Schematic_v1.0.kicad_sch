@@ -131,16 +131,16 @@
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/6ac0395a-3a8c-4f14-a5f6-c53255100d70"
       (reference "J?") (unit 1) (value "M_con") (footprint "")
     )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/91ff6b73-349d-49e4-9742-09d502f987be"
+      (reference "J?") (unit 1) (value "Deutsch") (footprint "")
+    )
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/dc0c9514-aba3-4b23-943d-072d1b6ac9ac"
       (reference "J?") (unit 1) (value "F_con") (footprint "")
     )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/dc0c9514-aba3-4b23-943d-072d1b6ac9ac"
-      (reference "J?") (unit 1) (value "F_con") (footprint "")
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/de29f7ed-664a-479e-9fdb-f102e88408fb"
+      (reference "J?") (unit 1) (value "Deutsch") (footprint "")
     )
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/de29f7ed-664a-479e-9fdb-f102e88408fb"
-      (reference "J?") (unit 1) (value "M_con") (footprint "")
-    )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/de29f7ed-664a-479e-9fdb-f102e88408fb"
       (reference "J?") (unit 1) (value "M_con") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/deb77e41-1430-4733-8c7c-908cd4ab0a51"
@@ -162,13 +162,19 @@
       (reference "K?") (unit 1) (value "Line Contactor") (footprint "Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/35fc9197-f5a2-4771-8459-3e635ee3ee3c"
-      (reference "LA?") (unit 1) (value "Keyswitch Light") (footprint "")
+      (reference "LA1") (unit 1) (value "TI power Light") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/60933e7e-f2fe-4185-b7a6-efbe3de57874"
-      (reference "LA?") (unit 1) (value "FWD Light") (footprint "")
+      (reference "LA2") (unit 1) (value "FWD Light") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/d47dd3b5-7b7f-473c-81a3-569a67feca85"
-      (reference "LA?") (unit 1) (value "Keyswitch Light") (footprint "")
+      (reference "LA3") (unit 1) (value "Keyswitch Light") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/cde51d62-ddef-4798-8174-b7005e20d6e9"
+      (reference "LA4") (unit 1) (value "Fault Light") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/a6cfbd0e-3f14-4aae-aac9-5a697c9b414d"
+      (reference "LA5") (unit 1) (value "REV/N Light") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/17f5dc4f-ba2e-4459-9469-5c2da575d700"
       (reference "M1") (unit 1) (value "Zero_7R_Motor") (footprint "")
@@ -198,7 +204,10 @@
       (reference "SW?") (unit 1) (value "HV Safety Switch") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/ab1e632e-d4c8-4dc8-b13f-a9f28de904e4"
-      (reference "SW?") (unit 1) (value "100V E-stop (side of car)") (footprint "")
+      (reference "SW?") (unit 1) (value "100V E-stop (Left)") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/c61cd80c-144e-4e2a-b98d-2afd10895cc1"
+      (reference "SW?") (unit 1) (value "100V E-stop (Right)") (footprint "")
     )
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/0aa54167-f3d9-467b-bc69-db1827651c6c"
       (reference "U?") (unit 1) (value "Throttle") (footprint "")
