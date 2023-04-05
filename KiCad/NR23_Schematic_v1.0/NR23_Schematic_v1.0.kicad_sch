@@ -5,92 +5,66 @@
   (paper "A")
 
   (title_block
-    (date "2023-03-03")
+    (date "2023-04-04")
   )
 
   (lib_symbols
   )
 
 
-  (sheet (at 59.69 133.35) (size 50.8 38.1)
+  (sheet (at 26.67 156.21) (size 50.8 38.1)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 16ced548-a4c4-4a05-b722-8e9610f878cc)
-    (property "Sheet name" "Telemetry" (id 0) (at 59.69 130.81 0)
+    (property "Sheet name" "Telemetry" (id 0) (at 26.67 153.67 0)
       (effects (font (size 5 5)) (justify left bottom))
     )
-    (property "Sheet file" "Telemetry.kicad_sch" (id 1) (at 59.69 172.0346 0)
+    (property "Sheet file" "Telemetry.kicad_sch" (id 1) (at 26.67 194.8946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 21.59 78.74) (size 40.64 35.56) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 2df3fecd-d45b-4e25-bac9-628d20876953)
-    (property "Sheet name" "VD Suite" (id 0) (at 21.59 76.1634 0)
-      (effects (font (size 5 5)) (justify left bottom))
-    )
-    (property "Sheet file" "VDSuite.kicad_sch" (id 1) (at 21.59 114.8846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
-  (sheet (at 88.9 82.55) (size 69.85 29.21)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
-    (fill (color 0 0 0 0.0000))
-    (uuid 40c358ae-a01e-49c6-aef1-9b414ada72a7)
-    (property "Sheet name" "Driver Interface" (id 0) (at 87.63 81.28 0)
-      (effects (font (size 5 5)) (justify left bottom))
-    )
-    (property "Sheet file" "DriverInterface.kicad_sch" (id 1) (at 88.9 86.9446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-  )
-
-  (sheet (at 186.69 115.57) (size 59.69 39.37) (fields_autoplaced)
+  (sheet (at 195.58 132.08) (size 59.69 39.37) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 6b38ef1b-89ba-46d1-8032-b895c26a5218)
-    (property "Sheet name" "BenchTop" (id 0) (at 186.69 112.9934 0)
+    (property "Sheet name" "BenchTop" (id 0) (at 195.58 129.5034 0)
       (effects (font (size 5 5)) (justify left bottom))
     )
-    (property "Sheet file" "BenchTop.kicad_sch" (id 1) (at 186.69 155.5246 0)
+    (property "Sheet file" "BenchTop.kicad_sch" (id 1) (at 195.58 172.0346 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 185.42 49.53) (size 59.69 39.37) (fields_autoplaced)
+  (sheet (at 35.56 27.94) (size 193.04 83.82) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 8302703f-65d0-4b91-aeea-6f721ab57e4c)
-    (property "Sheet name" "Tractive System" (id 0) (at 185.42 46.9534 0)
+    (property "Sheet name" "Tractive System" (id 0) (at 35.56 25.3634 0)
       (effects (font (size 5 5)) (justify left bottom))
     )
-    (property "Sheet file" "TractiveSystem.kicad_sch" (id 1) (at 185.42 89.4846 0)
+    (property "Sheet file" "TractiveSystem.kicad_sch" (id 1) (at 35.56 112.3446 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 88.9 27.94) (size 49.53 30.48)
+  (sheet (at 106.68 160.02) (size 49.53 30.48)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid c7466bb0-ebde-4ea4-90e3-94511e3895a3)
-    (property "Sheet name" "Microcontroller" (id 0) (at 87.63 26.67 0)
+    (property "Sheet name" "Microcontroller" (id 0) (at 105.41 158.75 0)
       (effects (font (size 5 5)) (justify left bottom))
     )
-    (property "Sheet file" "Microcontroller.kicad_sch" (id 1) (at 88.9 40.64 0)
+    (property "Sheet file" "Microcontroller.kicad_sch" (id 1) (at 106.68 172.72 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
   (sheet_instances
     (path "/" (page "1"))
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c" (page "1"))
     (path "/c7466bb0-ebde-4ea4-90e3-94511e3895a3" (page "2"))
-    (path "/40c358ae-a01e-49c6-aef1-9b414ada72a7" (page "3"))
-    (path "/2df3fecd-d45b-4e25-bac9-628d20876953" (page "4"))
     (path "/16ced548-a4c4-4a05-b722-8e9610f878cc" (page "5"))
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c" (page "6"))
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218" (page "7"))
   )
 
@@ -197,11 +171,11 @@
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/73d9a48c-dac8-466b-8653-0e6e709adbc2"
       (reference "SW?") (unit 1) (value "Shifter Switch") (footprint "")
     )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/839a2160-4be7-4a71-b4f3-e2d027441525"
-      (reference "SW?") (unit 1) (value "HV Safety Switch (behind driver)") (footprint "")
-    )
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/839a2160-4be7-4a71-b4f3-e2d027441525"
       (reference "SW?") (unit 1) (value "HV Safety Switch") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/839a2160-4be7-4a71-b4f3-e2d027441525"
+      (reference "SW?") (unit 1) (value "HV Safety Switch (behind driver)") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/ab1e632e-d4c8-4dc8-b13f-a9f28de904e4"
       (reference "SW?") (unit 1) (value "100V E-stop (Left)") (footprint "")
@@ -209,10 +183,10 @@
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/c61cd80c-144e-4e2a-b98d-2afd10895cc1"
       (reference "SW?") (unit 1) (value "100V E-stop (Right)") (footprint "")
     )
-    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/0aa54167-f3d9-467b-bc69-db1827651c6c"
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/0aa54167-f3d9-467b-bc69-db1827651c6c"
       (reference "U?") (unit 1) (value "Throttle") (footprint "")
     )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/0aa54167-f3d9-467b-bc69-db1827651c6c"
+    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/0aa54167-f3d9-467b-bc69-db1827651c6c"
       (reference "U?") (unit 1) (value "Throttle") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/35333229-0e5e-47a2-bb43-fcfbf8fd658d"
@@ -223,9 +197,6 @@
     )
     (path "/c7466bb0-ebde-4ea4-90e3-94511e3895a3/699a947b-7503-4a2e-aeca-27dd918b3280"
       (reference "U?") (unit 1) (value "TI_J12_CANbus") (footprint "")
-    )
-    (path "/40c358ae-a01e-49c6-aef1-9b414ada72a7/86cf8333-4281-49ef-8de9-d09a4c2f7e61"
-      (reference "U?") (unit 1) (value "Dash") (footprint "")
     )
     (path "/16ced548-a4c4-4a05-b722-8e9610f878cc/942b0a04-1bf0-4324-8c6e-417346d8e5d0"
       (reference "U?") (unit 1) (value "xbee") (footprint "")
