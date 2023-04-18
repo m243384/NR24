@@ -12,26 +12,26 @@
   )
 
 
-  (sheet (at 26.67 156.21) (size 50.8 38.1)
+  (sheet (at 39.37 132.08) (size 115.57 64.77)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 16ced548-a4c4-4a05-b722-8e9610f878cc)
-    (property "Sheet name" "Telemetry" (id 0) (at 26.67 153.67 0)
+    (property "Sheet name" "Telemetry" (id 0) (at 39.37 129.54 0)
       (effects (font (size 5 5)) (justify left bottom))
     )
-    (property "Sheet file" "Telemetry.kicad_sch" (id 1) (at 26.67 194.8946 0)
+    (property "Sheet file" "Telemetry.kicad_sch" (id 1) (at 39.37 170.7646 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
 
-  (sheet (at 195.58 132.08) (size 59.69 39.37) (fields_autoplaced)
+  (sheet (at 195.58 132.08) (size 110.49 35.56) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid 6b38ef1b-89ba-46d1-8032-b895c26a5218)
     (property "Sheet name" "BenchTop" (id 0) (at 195.58 129.5034 0)
       (effects (font (size 5 5)) (justify left bottom))
     )
-    (property "Sheet file" "BenchTop.kicad_sch" (id 1) (at 195.58 172.0346 0)
+    (property "Sheet file" "BenchTop.kicad_sch" (id 1) (at 195.58 168.2246 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -57,10 +57,28 @@
   )
 
   (symbol_instances
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/0cc246a4-8870-49dd-945c-fbfffb55b703"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/5b678e11-7d21-49c7-87bd-7953081d7748"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/86242390-ce71-4a1c-a74a-66c29943dff8"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/934055cb-9d39-4ad1-ae76-261d73ee61b7"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/a095cb59-e422-4afa-939f-01dc6aa5dd91"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/abd2a7f6-194b-4f90-9352-cc86eaabf27b"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/aefa985d-2a08-4349-90af-e8fd54a309c3"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/b105d02e-5b3f-492d-b9d6-bccabd476c30"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/9ec1d7fc-6f5f-41a1-a450-d625e8c70d57"
@@ -75,6 +93,15 @@
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/9d93a525-7abf-4eef-92da-b2a62ef62c7e"
       (reference "BTmain") (unit 1) (value "7.2KW_BatteryALLPINS") (footprint "")
     )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/33edf8a8-a3e4-48e9-80f7-6f14e9047a71"
+      (reference "D?") (unit 1) (value "D") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/3dd41065-0661-4611-b751-7b7457dab073"
+      (reference "D?") (unit 1) (value "D") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/cb3f31f3-7647-4909-937e-3d544217c1ef"
+      (reference "D?") (unit 1) (value "D") (footprint "")
+    )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/0ff0a299-f28e-4254-8f91-d87a10b36f6c"
       (reference "F?") (unit 1) (value "Sevcon Fuse") (footprint "")
     )
@@ -83,6 +110,9 @@
     )
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/f89e7d82-128e-4a2c-9534-2de10c90326b"
       (reference "F?") (unit 1) (value "Fuse") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/c3efaf65-8006-4868-9f6d-0b34664fb679"
+      (reference "HVSS") (unit 1) (value "HV Safety Switch (behind driver)") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/1dd5ea95-d588-470f-9d97-474e57890a75"
       (reference "J?") (unit 1) (value "Display Connection") (footprint "")
@@ -101,9 +131,6 @@
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/39842a16-2c1b-485a-b781-d75e96a8135e"
       (reference "J?") (unit 1) (value "Dash Key Switch Connection") (footprint "")
-    )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/4f7773d6-0ce1-4de2-b33c-40a7545a2a6c"
-      (reference "J?") (unit 1) (value "Dash 12 power connection") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/677d3ecc-41bd-42e2-8c0e-9eee2eeadf6d"
       (reference "J?") (unit 1) (value "Alt Dash 12 power connection") (footprint "")
@@ -168,6 +195,33 @@
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/17f5dc4f-ba2e-4459-9469-5c2da575d700"
       (reference "M1") (unit 1) (value "Zero_7R_Motor") (footprint "")
     )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/4cfe98f9-aa78-4658-9e93-07cade6de232"
+      (reference "Q?") (unit 1) (value "Q_NMOS_DGS") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/d68c45a5-3fdd-4a29-9ea0-4fa67786e0ef"
+      (reference "Q?") (unit 1) (value "Q_NMOS_DGS") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/faf03bf7-4254-4b9f-b70e-e4b84b8615c6"
+      (reference "Q?") (unit 1) (value "Q_NMOS_DGS") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/2d9cf3fe-accd-4c59-87b2-dbf79ebc59cd"
+      (reference "R?") (unit 1) (value "R_US") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/610df3be-18c0-42b0-9161-50b370e0205d"
+      (reference "R?") (unit 1) (value "R_US") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/6917848f-da8c-4c38-8fa7-5aa80b3bfb19"
+      (reference "R?") (unit 1) (value "R_US") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/abdb6156-d278-4176-813d-88b3fac1714c"
+      (reference "R?") (unit 1) (value "R_US") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/c074acdc-73b0-49e5-a95e-d94754a448e2"
+      (reference "R?") (unit 1) (value "R_US") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/c63e61ff-1cf3-4748-b8bd-e010cc68eeca"
+      (reference "R?") (unit 1) (value "R_US") (footprint "")
+    )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/3c4e7487-ab0a-423b-bce9-bfd53c73f666"
       (reference "SW?") (unit 1) (value "Key Switch") (footprint "")
     )
@@ -188,9 +242,6 @@
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/ab1e632e-d4c8-4dc8-b13f-a9f28de904e4"
       (reference "SW?") (unit 1) (value "100V E-stop (Left)") (footprint "")
-    )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/c3efaf65-8006-4868-9f6d-0b34664fb679"
-      (reference "SW?") (unit 1) (value "HV Safety Switch (behind driver)") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/c61cd80c-144e-4e2a-b98d-2afd10895cc1"
       (reference "SW?") (unit 1) (value "100V E-stop (Right)") (footprint "")
