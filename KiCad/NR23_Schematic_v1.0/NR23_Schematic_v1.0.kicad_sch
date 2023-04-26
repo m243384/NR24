@@ -88,7 +88,7 @@
       (reference "BT?") (unit 1) (value "7.2KW_Battery") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/39d10f1e-0e39-4617-84d3-0f39768316a5"
-      (reference "BTaux") (unit 1) (value "12V") (footprint "")
+      (reference "BTaux") (unit 1) (value "20V") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/9d93a525-7abf-4eef-92da-b2a62ef62c7e"
       (reference "BTmain") (unit 1) (value "7.2KW_BatteryALLPINS") (footprint "")
@@ -117,9 +117,6 @@
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/1dd5ea95-d588-470f-9d97-474e57890a75"
       (reference "J?") (unit 1) (value "Display Connection") (footprint "")
     )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/216444df-625d-4820-8680-e1f7fefb27ea"
-      (reference "J?") (unit 1) (value "Deutsch") (footprint "")
-    )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/29343fe7-1090-4f39-b166-f0431019621b"
       (reference "J?") (unit 1) (value "Dash TI Connection") (footprint "")
     )
@@ -129,11 +126,8 @@
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/33462402-8cb3-4f96-960d-15ae2e14504f"
       (reference "J?") (unit 1) (value "CAN Connector") (footprint "")
     )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/39842a16-2c1b-485a-b781-d75e96a8135e"
-      (reference "J?") (unit 1) (value "Dash Key Switch Connection") (footprint "")
-    )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/677d3ecc-41bd-42e2-8c0e-9eee2eeadf6d"
-      (reference "J?") (unit 1) (value "Alt Dash 12 power connection") (footprint "")
+      (reference "J?") (unit 1) (value "Dash power connection") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/6ac0395a-3a8c-4f14-a5f6-c53255100d70"
       (reference "J?") (unit 1) (value "M_con") (footprint "")
@@ -141,11 +135,11 @@
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/819680fd-28b0-4f33-88c0-dda0b2179bd1"
       (reference "J?") (unit 1) (value "CAN Connector") (footprint "")
     )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/91ff6b73-349d-49e4-9742-09d502f987be"
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/96e0d1eb-9c75-4d04-985b-fe091d64a9b6"
       (reference "J?") (unit 1) (value "Deutsch") (footprint "")
     )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/d7a3f103-9c18-4224-99c4-30e54b61f7da"
-      (reference "J?") (unit 1) (value "Dash Key Switch Connection") (footprint "")
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/c20f1626-a44e-4a72-a307-0ce6804e0048"
+      (reference "J?") (unit 1) (value "Deutsch") (footprint "")
     )
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/dc0c9514-aba3-4b23-943d-072d1b6ac9ac"
       (reference "J?") (unit 1) (value "F_con") (footprint "")
@@ -154,13 +148,10 @@
       (reference "J?") (unit 1) (value "M_con") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/deb77e41-1430-4733-8c7c-908cd4ab0a51"
-      (reference "J?") (unit 1) (value "Dash 12 power connection") (footprint "")
+      (reference "J?") (unit 1) (value "Dash power connection") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/e414d6cf-b0e7-416e-b935-ec05d5985e56"
       (reference "J?") (unit 1) (value "F_con") (footprint "")
-    )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/e80663a8-7e44-41e2-97f7-f2aa1487a112"
-      (reference "J?") (unit 1) (value "Display Connection") (footprint "")
     )
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/91be2d7e-1603-4ffc-85db-9cef433a5348"
       (reference "K?") (unit 1) (value "Key Switch Relay") (footprint "Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT")
