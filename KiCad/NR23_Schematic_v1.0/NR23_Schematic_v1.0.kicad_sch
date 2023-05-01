@@ -52,6 +52,7 @@
     (path "/" (page "1"))
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c" (page "1"))
     (path "/16ced548-a4c4-4a05-b722-8e9610f878cc" (page "5"))
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/01b1c639-78b6-4402-8511-4abf6b1febe5" (page "6"))
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb" (page "6"))
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218" (page "7"))
   )
@@ -93,6 +94,9 @@
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/9d93a525-7abf-4eef-92da-b2a62ef62c7e"
       (reference "BTmain") (unit 1) (value "7.2KW_BatteryALLPINS") (footprint "")
     )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/01b1c639-78b6-4402-8511-4abf6b1febe5/ed4209e1-19f1-42ec-b41d-c1e91974f061"
+      (reference "BTmainCrane") (unit 1) (value "7.2KW_BatteryALLPINS") (footprint "")
+    )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/33edf8a8-a3e4-48e9-80f7-6f14e9047a71"
       (reference "D?") (unit 1) (value "D") (footprint "")
     )
@@ -110,6 +114,9 @@
     )
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/f89e7d82-128e-4a2c-9534-2de10c90326b"
       (reference "F?") (unit 1) (value "Fuse") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/ea49991f-51eb-47a4-9087-5901396b5e43"
+      (reference "H?") (unit 1) (value "MountingHole_Pad") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/c3efaf65-8006-4868-9f6d-0b34664fb679"
       (reference "HVSS") (unit 1) (value "HV Safety Switch (behind driver)") (footprint "")
