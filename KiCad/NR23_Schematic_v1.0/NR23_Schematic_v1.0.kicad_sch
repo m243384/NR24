@@ -89,10 +89,10 @@
       (reference "BT?") (unit 1) (value "7.2KW_Battery") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/39d10f1e-0e39-4617-84d3-0f39768316a5"
-      (reference "BTaux") (unit 1) (value "20V") (footprint "")
+      (reference "BTaux1") (unit 1) (value "20V") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/9d93a525-7abf-4eef-92da-b2a62ef62c7e"
-      (reference "BTmain") (unit 1) (value "7.2KW_BatteryALLPINS") (footprint "")
+      (reference "BTmain1") (unit 1) (value "7.2KW_BatteryALLPINS") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/01b1c639-78b6-4402-8511-4abf6b1febe5/ed4209e1-19f1-42ec-b41d-c1e91974f061"
       (reference "BTmainCrane") (unit 1) (value "7.2KW_BatteryALLPINS") (footprint "")
@@ -107,7 +107,7 @@
       (reference "D?") (unit 1) (value "D") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/0ff0a299-f28e-4254-8f91-d87a10b36f6c"
-      (reference "F?") (unit 1) (value "Sevcon Fuse") (footprint "")
+      (reference "F1") (unit 1) (value "Sevcon Fuse") (footprint "")
     )
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/ba497376-f3b3-4aa7-8c24-837b232c4c3d"
       (reference "F?") (unit 1) (value "Fuse") (footprint "")
@@ -116,37 +116,40 @@
       (reference "F?") (unit 1) (value "Fuse") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/ea49991f-51eb-47a4-9087-5901396b5e43"
-      (reference "H?") (unit 1) (value "MountingHole_Pad") (footprint "")
+      (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/c3efaf65-8006-4868-9f6d-0b34664fb679"
-      (reference "HVSS") (unit 1) (value "HV Safety Switch (behind driver)") (footprint "")
-    )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/1dd5ea95-d588-470f-9d97-474e57890a75"
-      (reference "J?") (unit 1) (value "Display Connection") (footprint "")
-    )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/29343fe7-1090-4f39-b166-f0431019621b"
-      (reference "J?") (unit 1) (value "Dash TI Connection") (footprint "")
-    )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/2a7f9b9a-014a-459c-9a52-e32d8d4a03ec"
-      (reference "J?") (unit 1) (value "Dash TI Connection") (footprint "")
-    )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/33462402-8cb3-4f96-960d-15ae2e14504f"
-      (reference "J?") (unit 1) (value "CAN Connector") (footprint "")
-    )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/677d3ecc-41bd-42e2-8c0e-9eee2eeadf6d"
-      (reference "J?") (unit 1) (value "Dash power connection") (footprint "")
+      (reference "HVSS1") (unit 1) (value "HV Safety Switch (behind driver)") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/6ac0395a-3a8c-4f14-a5f6-c53255100d70"
-      (reference "J?") (unit 1) (value "M_con") (footprint "")
+      (reference "J1") (unit 1) (value "M_con") (footprint "")
     )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/819680fd-28b0-4f33-88c0-dda0b2179bd1"
-      (reference "J?") (unit 1) (value "CAN Connector") (footprint "")
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/e414d6cf-b0e7-416e-b935-ec05d5985e56"
+      (reference "J2") (unit 1) (value "F_con") (footprint "")
     )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/96e0d1eb-9c75-4d04-985b-fe091d64a9b6"
-      (reference "J?") (unit 1) (value "Deutsch") (footprint "")
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/deb77e41-1430-4733-8c7c-908cd4ab0a51"
+      (reference "J3") (unit 1) (value "Dash power connection") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/677d3ecc-41bd-42e2-8c0e-9eee2eeadf6d"
+      (reference "J4") (unit 1) (value "Dash power connection") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/29343fe7-1090-4f39-b166-f0431019621b"
+      (reference "J5") (unit 1) (value "Dash TI Connection") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/c20f1626-a44e-4a72-a307-0ce6804e0048"
-      (reference "J?") (unit 1) (value "Deutsch") (footprint "")
+      (reference "J6") (unit 1) (value "Deutsch") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/96e0d1eb-9c75-4d04-985b-fe091d64a9b6"
+      (reference "J7") (unit 1) (value "Deutsch") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/33462402-8cb3-4f96-960d-15ae2e14504f"
+      (reference "J8") (unit 1) (value "CAN Connector") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/bfee25bb-d791-48f2-a891-f49d38ea3e22"
+      (reference "J?") (unit 1) (value "Dash TI Connection") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/cc3d69b8-c3a1-431b-a29e-8b285d4736bf"
+      (reference "J?") (unit 1) (value "CAN Connector") (footprint "")
     )
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/dc0c9514-aba3-4b23-943d-072d1b6ac9ac"
       (reference "J?") (unit 1) (value "F_con") (footprint "")
@@ -154,19 +157,13 @@
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/de29f7ed-664a-479e-9fdb-f102e88408fb"
       (reference "J?") (unit 1) (value "M_con") (footprint "")
     )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/deb77e41-1430-4733-8c7c-908cd4ab0a51"
-      (reference "J?") (unit 1) (value "Dash power connection") (footprint "")
-    )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/e414d6cf-b0e7-416e-b935-ec05d5985e56"
-      (reference "J?") (unit 1) (value "F_con") (footprint "")
-    )
-    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/91be2d7e-1603-4ffc-85db-9cef433a5348"
-      (reference "K?") (unit 1) (value "Key Switch Relay") (footprint "Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT")
-    )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/a93530ce-8b22-4b63-b724-6c1e4d5cd8be"
-      (reference "K?") (unit 1) (value "Line Contactor") (footprint "Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT")
+      (reference "K1") (unit 1) (value "Line Contactor") (footprint "Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/a9e985c1-5127-467f-ba30-fc49c207bd55"
+      (reference "K2") (unit 1) (value "Key Switch Relay") (footprint "Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT")
+    )
+    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/91be2d7e-1603-4ffc-85db-9cef433a5348"
       (reference "K?") (unit 1) (value "Key Switch Relay") (footprint "Relay_THT:Relay_1P1T_NO_10x24x18.8mm_Panasonic_ADW11xxxxW_THT")
     )
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/b190c8cb-bd8a-4856-a017-7c47d784415d"
@@ -220,34 +217,37 @@
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/c63e61ff-1cf3-4748-b8bd-e010cc68eeca"
       (reference "R?") (unit 1) (value "R_US") (footprint "")
     )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/6c3134c2-5d21-4fd3-9eb6-b59769fd6e4d"
+      (reference "SW1") (unit 1) (value "TI power switch") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/73d9a48c-dac8-466b-8653-0e6e709adbc2"
+      (reference "SW2") (unit 1) (value "Shifter Switch") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/c61cd80c-144e-4e2a-b98d-2afd10895cc1"
+      (reference "SW3") (unit 1) (value "100V E-stop (Right)") (footprint "")
+    )
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/ab1e632e-d4c8-4dc8-b13f-a9f28de904e4"
+      (reference "SW4") (unit 1) (value "100V E-stop (Left)") (footprint "")
+    )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/3c4e7487-ab0a-423b-bce9-bfd53c73f666"
-      (reference "SW?") (unit 1) (value "Key Switch") (footprint "")
+      (reference "SW5") (unit 1) (value "Key Switch") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/40ce11e4-e080-4f3f-82f5-e9848ed514aa"
-      (reference "SW?") (unit 1) (value "12V E-stop") (footprint "")
-    )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/6c3134c2-5d21-4fd3-9eb6-b59769fd6e4d"
-      (reference "SW?") (unit 1) (value "TI power switch") (footprint "")
+      (reference "SW6") (unit 1) (value "12V E-stop") (footprint "")
     )
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/737b7baf-b889-4aeb-8cad-49a9c6801593"
       (reference "SW?") (unit 1) (value "Key Switch") (footprint "")
     )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/73d9a48c-dac8-466b-8653-0e6e709adbc2"
-      (reference "SW?") (unit 1) (value "Shifter Switch") (footprint "")
-    )
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/839a2160-4be7-4a71-b4f3-e2d027441525"
       (reference "SW?") (unit 1) (value "HV Safety Switch") (footprint "")
     )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/ab1e632e-d4c8-4dc8-b13f-a9f28de904e4"
-      (reference "SW?") (unit 1) (value "100V E-stop (Left)") (footprint "")
-    )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/c61cd80c-144e-4e2a-b98d-2afd10895cc1"
-      (reference "SW?") (unit 1) (value "100V E-stop (Right)") (footprint "")
-    )
-    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/0aa54167-f3d9-467b-bc69-db1827651c6c"
-      (reference "U?") (unit 1) (value "Throttle") (footprint "")
+    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/86d607a7-2b22-494c-98f1-8e82fb114d95"
+      (reference "U1") (unit 1) (value "Sevcon_Gen4_Size6") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/0e1a68e2-749f-4c4a-963e-7ad1987b1071"
+      (reference "U2") (unit 1) (value "Throttle") (footprint "")
+    )
+    (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/0aa54167-f3d9-467b-bc69-db1827651c6c"
       (reference "U?") (unit 1) (value "Throttle") (footprint "")
     )
     (path "/6b38ef1b-89ba-46d1-8032-b895c26a5218/35333229-0e5e-47a2-bb43-fcfbf8fd658d"
@@ -255,9 +255,6 @@
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/97abb871-5579-4630-a10b-2cee2773b5bb/699a947b-7503-4a2e-aeca-27dd918b3280"
       (reference "U?") (unit 1) (value "TI_J12_CANbus") (footprint "")
-    )
-    (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/86d607a7-2b22-494c-98f1-8e82fb114d95"
-      (reference "U?") (unit 1) (value "Sevcon_Gen4_Size6") (footprint "")
     )
     (path "/16ced548-a4c4-4a05-b722-8e9610f878cc/942b0a04-1bf0-4324-8c6e-417346d8e5d0"
       (reference "U?") (unit 1) (value "xbee") (footprint "")
