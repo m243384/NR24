@@ -2,7 +2,11 @@
 
   (uuid f9c66789-e1a0-4bb9-97df-e972512f8f51)
 
-  (paper "A4")
+  (paper "User" 334.01 216.002)
+
+  (title_block
+    (date "2023-05-03")
+  )
 
   (lib_symbols
     (symbol "CamachosSymbols:7.2KW_BatteryALLPINS" (pin_names (offset 0.002)) (in_bom yes) (on_board yes)

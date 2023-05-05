@@ -5,7 +5,7 @@
   (paper "User" 334.01 216.002)
 
   (title_block
-    (date "2023-04-04")
+    (date "2023-05-03")
   )
 
   (lib_symbols
@@ -89,7 +89,7 @@
       (reference "BT?") (unit 1) (value "7.2KW_Battery") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/39d10f1e-0e39-4617-84d3-0f39768316a5"
-      (reference "BTaux1") (unit 1) (value "20V") (footprint "")
+      (reference "BTaux1") (unit 1) (value "12V") (footprint "")
     )
     (path "/8302703f-65d0-4b91-aeea-6f721ab57e4c/9d93a525-7abf-4eef-92da-b2a62ef62c7e"
       (reference "BTmain1") (unit 1) (value "7.2KW_BatteryALLPINS") (footprint "")
