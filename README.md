@@ -1,4 +1,4 @@
-# NR23
+# NR24
 #Kicad is the electical wiring software inclduing schematics
 
 #simulink is the matlab code used to program the TI board
