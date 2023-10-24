@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 (sym_lib_table
   (version 7)
   (lib (name "00CAR_Components")(type "KiCad")(uri "${KIPRJMOD}/00CAR_Components.kicad_sym")(options "")(descr ""))
 )
+=======
+(sym_lib_table
+  (version 7)
+  (lib (name "00CAR_Components")(type "KiCad")(uri "${KIPRJMOD}/00CAR_Components.kicad_sym")(options "")(descr ""))
+)
+>>>>>>> d00dbc6499a2043cf235b938b1e2658606f772d9

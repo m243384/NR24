@@ -1,4 +1,4 @@
-(kicad_sch (version 20211123) (generator eeschema)
+(kicad_sch (version 20230121) (generator eeschema)
 
   (uuid b66fc70e-ac62-4066-b168-28f224b68855)
 
@@ -10,16 +10,16 @@
 
   (lib_symbols
     (symbol "Homssymbols:xbee" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (id 0) (at 25.4 -5.08 0)
+      (property "Reference" "U" (at 25.4 -5.08 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "xbee" (id 1) (at 13.97 -2.54 0)
+      (property "Value" "xbee" (at 13.97 -2.54 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "" (id 2) (at 0 0 0)
+      (property "Footprint" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
+      (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "xbee_0_1"
@@ -33,7 +33,7 @@
             (xy 52.07 33.02)
             (xy 52.07 3.81)
           )
-          (stroke (width 0) (type default) (color 0 0 0 0))
+          (stroke (width 0) (type default))
           (fill (type none))
         )
       )
@@ -124,14 +124,18 @@
 
 
   (symbol (lib_id "Homssymbols:xbee") (at 83.82 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 942b0a04-1bf0-4324-8c6e-417346d8e5d0)
-    (property "Reference" "U?" (id 0) (at 116.84 63.5 0))
-    (property "Value" "xbee" (id 1) (at 116.84 66.04 0))
-    (property "Footprint" "" (id 2) (at 83.82 106.68 0)
+    (property "Reference" "U?" (at 116.84 63.5 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "xbee" (at 116.84 66.04 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 83.82 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 83.82 106.68 0)
+    (property "Datasheet" "" (at 83.82 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "01" (uuid 85809b44-7fe6-4f84-aa1a-93e6c0b7f812))
@@ -154,5 +158,12 @@
     (pin "18" (uuid fd0bdc89-1891-4a15-b53b-c62112007eb1))
     (pin "19" (uuid b5f290b3-e8e3-402a-bbb2-def836f78466))
     (pin "20" (uuid 703a38e1-1646-41e6-8563-957b6a875df0))
+    (instances
+      (project "NR23_Schematic_v1.0"
+        (path "/3d51c1fa-6531-4ba6-8378-66c613861a49/16ced548-a4c4-4a05-b722-8e9610f878cc"
+          (reference "U?") (unit 1)
+        )
+      )
+    )
   )
 )
